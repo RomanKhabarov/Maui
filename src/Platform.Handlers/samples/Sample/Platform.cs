@@ -15,6 +15,7 @@ namespace Sample
 
 			HasInit = true;
 
+			RegistrarHandlers.Handlers.Register<ChartView, ChartHandler>();
 			RegistrarHandlers.Handlers.Register<Button, ButtonHandler>();
 			RegistrarHandlers.Handlers.Register<Label, LabelHandler>();
 			RegistrarHandlers.Handlers.Register<Slider, SliderHandler>();

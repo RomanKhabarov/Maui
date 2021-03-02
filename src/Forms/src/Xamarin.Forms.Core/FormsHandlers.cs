@@ -15,6 +15,7 @@ namespace Xamarin.Forms
 			Xamarin.Platform.Registrar.Handlers.Register<VerticalStackLayout, LayoutHandler>();
 			Xamarin.Platform.Registrar.Handlers.Register<HorizontalStackLayout, LayoutHandler>();
 			Xamarin.Platform.Registrar.Handlers.Register<Button, ButtonHandler>();
+			Xamarin.Platform.Registrar.Handlers.Register<ChartView, ChartHandler>();
 			Xamarin.Platform.Registrar.Handlers.Register<Label, LabelHandler>();
 			Xamarin.Platform.Registrar.Handlers.Register(typeof(Switch), typeof(SwitchHandler));
 		}

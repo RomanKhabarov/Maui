@@ -41,6 +41,8 @@ namespace Sample
 			verticalStack.Add(new Switch() { ThumbColor = Color.Yellow });
 			verticalStack.Add(new Switch() { OnColor = Color.Green, ThumbColor = Color.Yellow });
 
+			verticalStack.Add(new ChartView() { SeriesCount = 5, HeightRequest = 200, WidthRequest = 200 });
+
 			return verticalStack;
 		}
 	}

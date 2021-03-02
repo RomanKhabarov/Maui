@@ -22,12 +22,15 @@
     <_DotNetPackageVersion>5.0.0</_DotNetPackageVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="System.CodeDom"                        Version="$(_DotNetPackageVersion)" />
-    <PackageReference Include="System.Diagnostics.EventLog"           Version="$(_DotNetPackageVersion)" />
+    <PackageReference Include="System.CodeDom" Version="$(_DotNetPackageVersion)" />
+    <PackageReference Include="System.Diagnostics.EventLog" Version="$(_DotNetPackageVersion)" />
     <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="$(_DotNetPackageVersion)" />
-    <PackageReference Include="System.IO.Ports"                       Version="$(_DotNetPackageVersion)" />
-    <PackageReference Include="System.Security.Permissions"           Version="$(_DotNetPackageVersion)" />
-    <PackageReference Include="System.Threading.AccessControl"        Version="$(_DotNetPackageVersion)" />
+    <PackageReference Include="System.IO.Ports" Version="$(_DotNetPackageVersion)" />
+    <PackageReference Include="System.Security.Permissions" Version="$(_DotNetPackageVersion)" />
+    <PackageReference Include="System.Threading.AccessControl" Version="$(_DotNetPackageVersion)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\Work\native-mobile\xamarin\Android\DevExpress.Charts.Android\DevExpress.Charts.Android\DevExpress.Charts.Android.csproj" />
   </ItemGroup>
 </Project>
 
